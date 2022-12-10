@@ -6,7 +6,7 @@ const SegmentaOnline = () => {
   return (
     <>
       <Header/>
-      <div>
+      <div className={c.sigmenta}>
         <h1>THIS IS SIGMENTA ONLINE PAGE</h1>
       </div>
     </>
