@@ -1,0 +1,25 @@
+.header-top {
+  background-color: var(--white-c);
+  padding: 16px 0px;
+}
+
+.header-top-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-top__logo {
+  width: 330px;
+  height: 67px;
+}
+
+.header-top__link {
+  font-weight: 500;
+  color: var(--black-c);
+}
+
+.header-top__link:hover {
+  color: var(--primary-orange-c);
+  text-decoration: underline;
+}
