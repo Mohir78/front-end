@@ -1,16 +1,64 @@
+@font-face {
+  font-family: 'Inter';
+  src: url('./assets/fonts/Inter-Bold.eot');
+  src: url('./assets/fonts/Inter-Bold.eot?#iefix') format('embedded-opentype'),
+      url('./assets/fonts/Inter-Bold.woff2') format('woff2'),
+      url('./assets/fonts/Inter-Bold.woff') format('woff'),
+      url('./assets/fonts/Inter-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('./assets/fonts/Inter-Regular.eot');
+  src: url('./assets/fonts/Inter-Regular.eot?#iefix') format('embedded-opentype'),
+      url('./assets/fonts/Inter-Regular.woff2') format('woff2'),
+      url('./assets/fonts/Inter-Regular.woff') format('woff'),
+      url('./assets/fonts/Inter-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
 *,
 *::after,
 *::before {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  outline: none;
+  scroll-behavior: smooth;
+  font-family: 'Inter', sans-serif;
 }
 
+:root {
+  --primary-blue-c: #268EFF;
+  --primary-orange-c: #FF5C00;
+  --primary-white-c: #F5F5F5;
+  --primary-green-c: #39AA45;
+  --white-c: #FFFFFF;
+  --black-c: #000000;
+}
+
+:root {
+  --fz-12: 12px;
+  --fz-18: 18px;
+}
+
+.container {
+  max-width: 1980px;
+  width: 100%;
+  padding: 0 30px;
+  margin: 0 auto;
+}
 
 body,
 html {
   font-weight: 400;
   font-style: normal;
+  background-color: var(--primary-white-c);
 }
 
 ol,
